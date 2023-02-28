@@ -52,8 +52,9 @@ function sumOfNPrimes(n) {
 }
 
 function firstNPrimes(n) {
-    let primes = []
-    let i = 2
+    debugger;
+    let primes = [];
+    let i = 2;
     while (primes.length < n) {
         if (isPrime(i)) {
             primes.push(i);
